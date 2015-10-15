@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-kentor",
+  "version": "1.0.0",
+  "description": "My eslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kentor/eslint-config-kentor"
+  },
+  "author": "Kenneth Chung <ken70r@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentor/eslint-config-kentor/issues"
+  },
+  "homepage": "https://github.com/kentor/eslint-config-kentor",
+  "devDependencies": {
+    "eslint": "^1.6.0"
+  }
+}
