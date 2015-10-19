@@ -81,8 +81,10 @@ module.exports = {
     // ECMAScript 6
     'arrow-spacing': [2, { 'before': true, 'after': true }],
     'constructor-super': 2,
+    'generator-star-spacing': [2, { 'before': true, 'after': false }],
     'no-class-assign': 2,
     'no-const-assign': 2,
+    'no-dupe-class-members': 2,
     'no-this-before-super': 2,
     'object-shorthand': [2, 'always'],
     'prefer-const': 2,
