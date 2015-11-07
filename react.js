@@ -6,7 +6,6 @@ module.exports = {
     'react',
   ],
   'rules': {
-    'react/display-name': [2, { 'acceptTranspilerName': true }],
     'react/jsx-closing-bracket-location': [2, { 'location': 'tag-aligned' }],
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-indent-props': [2, 2],

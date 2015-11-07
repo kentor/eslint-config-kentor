@@ -16,6 +16,7 @@ module.exports = {
     'dot-location': [2, 'property'],
     'dot-notation': [2, { 'allowKeywords': true }],
     'eqeqeq': 2,
+    'no-case-declarations': 2
     'no-multi-spaces': 2,
 
     // Stylistic Issues
