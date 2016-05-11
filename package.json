@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kentor/eslint-config-kentor",
   "devDependencies": {
-    "eslint": "2.2.0"
+    "eslint": "2.9.0"
   }
 }
