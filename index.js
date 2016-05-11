@@ -99,6 +99,5 @@ module.exports = {
     'object-shorthand': [2, 'always'],
     'prefer-const': 2,
     'prefer-spread': 2,
-    'prefer-template': 2,
   },
 };
