@@ -11,7 +11,6 @@ module.exports = {
   },
   'rules': {
     // eslint:recommended overrides
-    'comma-dangle': [2, 'always-multiline'],
     'no-console': 0,
     'no-unused-vars': [2, { 'args': 'none' }],
 
@@ -29,6 +28,7 @@ module.exports = {
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
     'camelcase': 2,
+    'comma-dangle': [2, 'always-multiline'],
     'comma-spacing': [2, { 'before': false, 'after': true }],
     'comma-style': 0,
     'computed-property-spacing': [2, 'never'],
@@ -47,10 +47,12 @@ module.exports = {
     'lines-around-comment': 0,
     'max-depth': 0,
     'max-len': [2, 80],
+    'max-lines': 0,
     'max-nested-callbacks': 0,
     'max-params': 0,
     'max-statements': 0,
     'max-statements-per-line': 0,
+    'multiline-ternary': 0,
     'new-cap': 0,
     'new-parens': 0,
     'newline-after-var': 0,
@@ -61,6 +63,7 @@ module.exports = {
     'no-continue': 0,
     'no-inline-comments': 0,
     'no-lonely-if': 2,
+    'no-mixed-operators': 0,
     'no-mixed-spaces-and-tabs': 2,
     'no-multiple-empty-lines': 2,
     'no-negated-condition': 2,
@@ -74,7 +77,9 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 2,
+    'object-curly-newline': 0,
     'object-curly-spacing': [2, 'always'],
+    'object-property-newline': 0,
     'one-var': [2, 'never'],
     'one-var-declaration-per-line': 0,
     'operator-assignment': 0,
@@ -93,6 +98,7 @@ module.exports = {
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
     'spaced-comment': [2, 'always'],
     'wrap-regex': 0,
+    'unicode-bom': 0,
 
     // ECMAScript 6
     'arrow-spacing': [2, { 'before': true, 'after': true }],
@@ -107,6 +113,7 @@ module.exports = {
     'object-shorthand': [2, 'always'],
     'prefer-const': 2,
     'prefer-spread': 2,
+    'rest-spread-spacing': 2,
     'template-curly-spacing': 2,
   },
 };
