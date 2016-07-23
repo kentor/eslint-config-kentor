@@ -4,6 +4,11 @@ module.exports = {
     'node': true,
   },
   'extends': 'eslint:recommended',
+  'parserOptions': {
+    'ecmaFeatures': {
+      'experimentalObjectRestSpread': true,
+    },
+  },
   'rules': {
     // eslint:recommended overrides
     'comma-dangle': [2, 'always-multiline'],
