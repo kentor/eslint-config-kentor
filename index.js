@@ -9,6 +9,9 @@ module.exports = {
       'experimentalObjectRestSpread': true,
     },
   },
+  'plugins': [
+    'sort-requires',
+  ],
   'rules': {
     // eslint:recommended overrides
     'no-console': 0,
@@ -120,5 +123,8 @@ module.exports = {
     'prefer-spread': 2,
     'rest-spread-spacing': 2,
     'template-curly-spacing': 2,
+
+    // Sort Requires
+    'sort-requires/sort-requires': 2,
   },
 };
