@@ -31,7 +31,7 @@ module.exports = {
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'camelcase': 2,
-    'captialize-comments': 0,
+    'capitalized-comments': 0,
     'comma-dangle': [2, 'always-multiline'],
     'comma-spacing': [2, { 'before': false, 'after': true }],
     'comma-style': 0,
@@ -86,6 +86,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 2,
+    'nonblock-statement-body-position'
     'object-curly-newline': 0,
     'object-curly-spacing': [2, 'always'],
     'object-property-newline': 0,
@@ -107,6 +108,7 @@ module.exports = {
     'space-infix-ops': 2,
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
     'spaced-comment': [2, 'always'],
+    'template-tag-spacing': 2,
     'unicode-bom': 0,
     'wrap-regex': 0,
 

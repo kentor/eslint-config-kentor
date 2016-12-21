@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kentor",
-  "version": "3.14.0",
+  "version": "3.19.0",
   "description": "My eslint config",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kentor/eslint-config-kentor",
   "devDependencies": {
-    "eslint": "3.14.0"
+    "eslint": "3.19.0"
   },
   "dependencies": {
     "eslint-plugin-sort-requires": "^2.1.0"
