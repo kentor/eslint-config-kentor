@@ -29,7 +29,7 @@ module.exports = {
     // Stylistic Issues
     'array-bracket-spacing': [2, 'never'],
     'block-spacing': [2, 'always'],
-    'brace-style': [2, '1tbs'],
+    'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'camelcase': 2,
     'captialize-comments': 0,
     'comma-dangle': [2, 'always-multiline'],
