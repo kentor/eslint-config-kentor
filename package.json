@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kentor",
-  "version": "3.19.2",
+  "version": "4.0.0",
   "description": "My eslint config",
   "main": "index.js",
   "scripts": {
