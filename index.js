@@ -105,7 +105,7 @@ module.exports = {
     'sort-keys': 0,
     'sort-vars': 0,
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, { 'anonymous': 'never', 'named': 'never', 'asyncArrow': 'never' }],
+    'space-before-function-paren': [2, { 'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always' }],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
