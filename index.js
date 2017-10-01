@@ -8,7 +8,7 @@ module.exports = {
     'ecmaFeatures': {
       'experimentalObjectRestSpread': true,
     },
-    'ecmaVerson': 2017,
+    'ecmaVersion': 2017,
   },
   'plugins': [
     'sort-requires',
