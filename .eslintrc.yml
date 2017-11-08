@@ -1,4 +1,6 @@
 ---
 extends: ./index.js
+plugins:
+  - prettier
 rules:
-  max-len: 0
+  prettier/prettier: 0
