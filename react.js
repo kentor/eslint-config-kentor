@@ -16,6 +16,15 @@ module.exports = {
     'react/no-unknown-property': 2,
     'react/react-in-jsx-scope': 2,
     'react/self-closing-comp': 2,
-    'react/sort-comp': [2, { 'groups': { 'render': ['/^render.*$/'] } }],
+    'react/sort-comp': [2, {
+      order: [
+        'type-annotations',
+        'static-method',
+        'lifecycle',
+        'everything-else',
+        'render',
+      ],
+      groups: { render: ['/^render.*$/'] },
+    }],
   },
 };
